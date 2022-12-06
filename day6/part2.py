@@ -1,8 +1,6 @@
 f = open("input.txt", "r")
 lines = f.readline()
 
-input = [x for x in lines]
-
 found = False
 index = 14
 while not found:
